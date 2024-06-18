@@ -2,7 +2,7 @@
 ### Overview
 This project implements a low-light image enhancement model using the Zero-Reference Deep Curve Estimation (Zero-DCE) method, integrated with a Dnet architecture. The model aims to dynamically adjust the tonal range of low-light images, resulting in enhanced visibility and preserved details without relying on paired reference images during training.
  
-<img src="assets/GIF1.gif" height="300">   <img src="assets/GIF2.gif" height="300"> 
+<img src="assets/GIF1.gif" height="200">   <img src="assets/GIF2.gif" height="200"> 
 ## Installing Required Libraries/Packages
 ```
 pip install numpy
