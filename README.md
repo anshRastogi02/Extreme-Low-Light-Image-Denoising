@@ -19,7 +19,7 @@ python install tenserflow  or  ( python -m pip install tensorflow[and-cuda] , if
 ### Cloning this repositry
 Run the following command to clone this repositry into your Locals
 ```
-git clone 
+git clone https://github.com/anshRastogi02/Extreme-Low-Light-Image-Denoising.git
 ```
 ## Folder structure
 The following shows the basic folder structure of this repositry.
@@ -74,7 +74,7 @@ python train.py
 This script will train the ZeroDCE model on train_dataset using D-Net Architecture and saves the trained weights in saved_weights Directory.
 w1.py was trained and validated on LOL_dataset's 485 training image files. 
 
-**Note: ** You can train your own model using different dataset and save the weights to reuse them.
+**Note:** You can train your own model using different dataset and save the weights to reuse them.
 
 ## Testing: 
 Follow these commands to process test_image_files
